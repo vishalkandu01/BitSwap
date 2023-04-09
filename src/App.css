@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -45px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.crypto-card {
+    min-width: 440px;
+    border: 2px solid rgb(182, 181, 181);
+    border-radius: 7px;
+}
+
+.select-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+p {
+    width: 400px;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
